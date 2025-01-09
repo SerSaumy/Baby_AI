@@ -1,74 +1,74 @@
-# BabyAI
+BabyAI
+Welcome to BabyAI, an AI that learns to interact with the Minecraft world! This project is designed to let the AI simulate actions and improve its understanding of the game, starting from scratch. It learns through trial and error, just like a baby.
 
-**BabyAI** is a reinforcement learning project that simulates the learning process of an AI in the Minecraft world. The goal is to create an AI that starts with the ability to **see** its environment, and through exploration, learns to interact with the world (e.g., mining, moving, placing blocks) without prior knowledge of its surroundings. The project focuses on **visual perception** and **learning through trial and error**.
+Table of Contents
+Introduction
+Setup Guide
+Usage
+Contributing
+License
+Introduction
+BabyAI is a project aimed at creating an AI that interacts with the Minecraft world by performing simple actions like moving and mining. The bot starts with no knowledge and learns from its environment, mimicking how a baby would learn.
 
-## Project Structure
+The idea behind this project is inspired by Emergent Garden, who has his own AI integration system for Minecraft. If you want to see his work, check out his GitHub: Kolbytn.
 
-The project is structured as follows:
+Setup Guide
+To get started with BabyAI, follow these steps:
 
-```
-BabyAI/
-├── README.md                # Project overview and instructions
-├── requirements.txt         # List of dependencies
-├── docs/                    # Documentation (optional)
-├── src/                     # Source code
-│   ├── main.py              # Main entry point for the project
-```
+Prerequisites
+Node.js: You'll need Node.js to run the Minecraft bot.
+Python: Some parts of the AI code are written in Python, so make sure it's installed.
+Minecraft: Make sure you have a Minecraft server running. You can use your local machine or set up a LAN server.
+Steps
+Clone the Repository
 
-## Requirements
+Open your terminal/command prompt and clone the BabyAI repository:
 
-- Python 3.x
-- **Mineflayer**: A Minecraft bot for interacting with the game
-- **Gym**: A toolkit for developing reinforcement learning environments
-- **NumPy**: For handling arrays and basic calculations
+bash
+Copy code
+git clone https://github.com/your-username/Baby-AI.git
+Install Dependencies
 
-To set up the project, follow the steps below.
+Navigate to the project folder and install the required dependencies:
 
-## Setup Instructions
+For Node.js dependencies:
 
-### 1. Clone the repository:
+Copy code
+npm install
+For Python dependencies:
 
-```bash
-git clone https://github.com/<your-username>/BabyAI.git
-cd BabyAI
-```
-
-### 2. Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-### 3. Activate the virtual environment:
-- On **Windows**:
-  ```bash
-  venv\Scripts\Activate
-  ```
-- On **Mac/Linux**:
-  ```bash
-  source venv/bin/activate
-  ```
-
-### 4. Install the required dependencies:
-
-```bash
+Copy code
 pip install -r requirements.txt
-```
+Set Up Minecraft Server
 
-### 5. Run the main program:
+Make sure your Minecraft server is running. You can host it on your local machine or set it up over LAN.
 
-```bash
-python src/main.py
-```
+Run the Bot
 
-## Contributing
+To start the bot, use the following command:
 
-Feel free to fork the repository, make changes, and submit pull requests. Contributions are welcome!
+Copy code
+node bot.js
+The bot will now connect to the Minecraft server and start simulating actions.
 
-## License
+Usage
+Once you've set up everything, you can start the bot by running:
 
-This project is open-source and available under the [MIT License](LICENSE).
+Copy code
+node bot.js
+The bot will connect to your Minecraft world and start performing actions. You can modify its behavior by editing the bot.js file.
 
-Copyright
+To stop the bot, press Ctrl + C in the terminal.
 
-© 2025 SerSaumy. All rights reserved.
+Contributing
+We welcome contributions from anyone interested in helping improve BabyAI! If you'd like to contribute:
+
+Fork the repository.
+Create a new branch.
+Make your changes.
+Submit a pull request.
+Please make sure to follow the code style and add tests where necessary.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+

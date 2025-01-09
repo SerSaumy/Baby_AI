@@ -1,19 +1,10 @@
-```markdown
-# How to Use BabyAI
+Usage
+After setting up the project, start the bot by running:
 
-After setting up the project, follow these steps to start using BabyAI:
+Copy code
+node bot.js
+The bot will connect to your Minecraft server. It will simulate actions in future.
 
-1. **Run the main script**:
-   ```bash
-   python src/main.py
-   ```
-   
-2. The AI will begin its learning process, where it will **see** its environment and start interacting with it. 
+You can customize the bot's behavior by modifying the code in bot.js. If you want to stop the bot, press Ctrl + C in the terminal.
 
-3. The goal of the AI is to learn how to **mine blocks**, **move**, and **place blocks** to explore and interact with the Minecraft world.
-
-4. You can monitor the AI's progress by watching the game environment or by looking at the logs in the terminal.
-
-## Customization
-- You can adjust the behavior of the AI by editing the code in `src/main.py` or by adding more functionality in the `src/ai/` folder.
-```
+That's it! The BabyAI bot is ready to start learning in the Minecraft world.

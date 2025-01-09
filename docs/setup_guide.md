@@ -1,43 +1,45 @@
-```markdown
-# Setup Guide
+Setup Guide for BabyAI
+This guide will help you set up the BabyAI bot for Minecraft.
 
-Follow these steps to set up the BabyAI project on your local machine.
+Prerequisites
+Before you start, make sure you have the following installed:
 
-### Prerequisites
-- Python 3.x (version 3.7 or later)
-- Git (for cloning the repository)
+Node.js: The bot uses Node.js, so you need to install it from Node.js official website.
 
-### Steps to Set Up
+Minecraft Server: You need a running Minecraft server for the bot to connect to. You can set it up locally or use a remote server. If running locally, the default address is localhost and port 25565.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<your-username>/BabyAI.git
-   cd BabyAI
-   ```
+Git: To clone the project repository, make sure you have Git installed. Download it from Git's official website.
 
-2. **Create a virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
+Setting Up the Project
+1. Clone the Repository
+First, clone the BabyAI project to your local machine. Open a terminal and run:
 
-3. **Activate the virtual environment**:
-   - On **Windows**:
-     ```bash
-     venv\Scripts\Activate
-     ```
-   - On **Mac/Linux**:
-     ```bash
-     source venv/bin/activate
-     ```
+bash
+Copy code
+git clone https://github.com/your-username/Baby-AI.git
+Replace your-username with the appropriate GitHub username.
 
-4. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install Dependencies
+Next, install the required dependencies. Inside the cloned folder, run the following command in the terminal:
 
-5. **Run the main program**:
-   ```bash
-   python src/main.py
-   ```
+Copy code
+npm install
+This will install all the required Node.js packages for the bot to work.
 
-Now your BabyAI project is set up and ready to run!
+3. Update the IP Address (Optional)
+By default, the bot will try to connect to localhost (your local machine). If your Minecraft server is hosted on a different machine or has a different IP, update the IP address in the bot.js file:
+
+Open bot.js in a text editor.
+Change the line where the IP is defined (usually something like host: 'localhost') to the correct IP address.
+Running the Bot
+Once everything is set up, you can start the bot. Run the following command:
+
+Copy code
+node bot.js
+This will start the BabyAI bot and connect it to your Minecraft server. You should see the bot joining the world.
+
+Stopping the Bot
+To stop the bot, simply press Ctrl + C in the terminal where the bot is running.
+If you want to help We're open for feedback and suggestion and collabrations
+
+                  THANKS
