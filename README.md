@@ -1,75 +1,58 @@
-BabyAI
+# BabyAI
 
-Welcome to BabyAI, an AI that learns to interact with the Minecraft world! This project is designed to let the AI simulate actions and improve its understanding of the game, starting from scratch. It learns through trial and error, just like a baby.
+BabyAI is an AI project designed to simulate how a baby learns in a Minecraft world. The AI can only "see" the world around it and must figure out how to interact with its environment (like moving, mining, etc.) through trial and error. The goal is to create an agent that can learn from its surroundings using reinforcement learning.
 
-Table of Contents
-Introduction
-Setup Guide
-Usage
-Contributing
-License
-Introduction
-BabyAI is a project aimed at creating an AI that interacts with the Minecraft world by performing simple actions like moving and mining. The bot starts with no knowledge and learns from its environment, mimicking how a baby would learn.
+## Table of Contents
+- [Introduction](#introduction)
+- [Setup Guide](#setup-guide)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 
-The idea behind this project is inspired by Emergent Garden, who has his own AI integration system for Minecraft. If you want to see his work, check out his GitHub: Kolbytn.
+## Introduction
+BabyAI is inspired by **Emergent Garden**, who has created a similar AI system in Minecraft using reinforcement learning. The goal of this project is to provide a foundational AI model that learns autonomously, with limited capabilities, and can interact with the Minecraft environment.
 
-Setup Guide
+## Setup Guide
 To get started with BabyAI, follow these steps:
 
-Prerequisites
-Node.js: You'll need Node.js to run the Minecraft bot.
-Python: Some parts of the AI code are written in Python, so make sure it's installed.
-Minecraft: Make sure you have a Minecraft server running. You can use your local machine or set up a LAN server.
-Steps
-Clone the Repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/BabyAI.git
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Install Node.js and Mineflayer (for Minecraft interaction):
+bash
+Copy code
+npm install mineflayer
+Run the bot:
+bash
+Copy code
+node bot.js
+Usage
+BabyAI is designed to connect to a Minecraft world where it will attempt to learn from its environment. The bot will start, and the AI will make decisions based on its visual input (a 3x3 grid of blocks). To interact with the world, BabyAI uses actions like moving or mining.
 
-Open your terminal/command prompt and clone the BabyAI repository:
+The bot runs autonomously, and it learns how to interact with the world by making random decisions at first, which improve as the AI learns from the environment over time.
+
+To run the AI, use the following commands:
 
 bash
 Copy code
-git clone https://github.com/your-username/Baby-AI.git
-Install Dependencies
-
-Navigate to the project folder and install the required dependencies:
-
-For Node.js dependencies:
-
-Copy code
-npm install
-For Python dependencies:
-
-Copy code
-pip install -r requirements.txt
-Set Up Minecraft Server
-
-Make sure your Minecraft server is running. You can host it on your local machine or set it up over LAN.
-
-Run the Bot
-
-To start the bot, use the following command:
-
-Copy code
-node bot.js
-The bot will now connect to the Minecraft server and start simulating actions.
-
-Usage
-Once you've set up everything, you can start the bot by running:
-
-Copy code
-node bot.js
-The bot will connect to your Minecraft world and start performing actions. You can modify its behavior by editing the bot.js file.
-
-To stop the bot, press Ctrl + C in the terminal.
-
+python main.py
 Contributing
-We welcome contributions from anyone interested in helping improve BabyAI! If you'd like to contribute:
+We welcome contributions to BabyAI! If you want to help improve the project or add new features, please fork the repository and submit a pull request. Here's how you can contribute:
 
 Fork the repository.
-Create a new branch.
-Make your changes.
-Submit a pull request.
-Please make sure to follow the code style and add tests where necessary.
+Make your changes in a new branch.
+Write tests for any new functionality.
+Ensure your code follows the project’s coding style.
+Submit a pull request for review.
+We appreciate all contributions, no matter how big or small!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgments
+Special thanks to Emergent Garden (Kolbytn on GitHub) for inspiring the creation of this project. BabyAI is based on the principles from Emergent Garden's work and his approach to reinforcement learning in Minecraft. You can check out his projects:
 
+Emergent Garden's YouTube Channel
+Kolbytn's GitHub
+Feel free to ask questions or report issues by opening an issue in the GitHub repository.
