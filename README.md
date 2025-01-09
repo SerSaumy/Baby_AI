@@ -49,6 +49,8 @@ We appreciate all contributions, no matter how big or small!
 Special thanks to Emergent Garden (Kolbytn on GitHub) for inspiring the creation of this project. BabyAI is based on the principles from Emergent Garden's work and his approach to reinforcement learning in Minecraft. You can check out his projects:
 
 [Emergent Garden's YouTube Channe](https://www.youtube.com/@EmergentGarden)
+
 [Kolbytn's GitHub](https://www.github.com/koblynt)
+
 Feel free to ask questions or report issues by opening an issue in the GitHub repository.
 
