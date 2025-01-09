@@ -1,0 +1,12 @@
+# BabyAI Project Dependencies
+
+# Mineflayer - A Minecraft bot that we will use to control the in-game AI.
+mineflayer
+
+# Gym - A toolkit for developing and comparing reinforcement learning environments.
+# This will help us set up the learning environment for the AI.
+gym
+
+# NumPy - A package for numerical computing in Python.
+# We will use NumPy for mathematical operations and handling arrays.
+numpy
