@@ -50,7 +50,7 @@ Special thanks to Emergent Garden (Kolbytn on GitHub) for inspiring the creation
 
 [Emergent Garden's YouTube Channe](https://www.youtube.com/@EmergentGarden)
 
-[Kolbytn's GitHub](https://www.github.com/koblynt)
+[Kolbytn's GitHub](https://www.github.com/koblytn)
 
 Feel free to ask questions or report issues by opening an issue in the GitHub repository.
 
