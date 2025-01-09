@@ -1,4 +1,5 @@
 BabyAI
+
 Welcome to BabyAI, an AI that learns to interact with the Minecraft world! This project is designed to let the AI simulate actions and improve its understanding of the game, starting from scratch. It learns through trial and error, just like a baby.
 
 Table of Contents
